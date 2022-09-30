@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&family=Rozha+One&display=swap');
+
+* {
+   font-family: 'Poppins', Tahoma;
+   padding:0px;
+}
+
+:root {
+   --primary-color: white;
+   --secondary-color: black;
+   --third-color: #dddddd;
+   --forth-color: #888888;
+}
+
+#sun {
+   cursor: pointer;
+}
+
+#body {
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+}
+
+#all {
+   margin: 0 auto;
+}
+
+#footer {
+   width: 100%;
+}
+
+#main-logo, #whiteicon {
+   padding-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+}
+
+
+#navbar {
+   text-align: center;
+}
+
+#navbar a{
+   text-decoration: none;
+   color: var(--secondary-color);
+}
+
+#navbar a:hover{
+   font-weight: bold;
+}
+
+#navbar > ul > li, #footer > ul > li {
+   display: inline-block;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+#maintag {
+   color: #BF4500;
+   text-align: center;
+   padding-top: 10px;
+   letter-spacing: 2px;
+}
+
+#post-title {
+   font-family: 'Abril Fatface';
+   font-weight: normal;
+   width: 80%;
+   max-width: 800px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+#post-description {
+   font-size: 12px;
+   text-align: center;
+   max-width: 500px;
+   color: #666666;
+   margin: 0 auto;
+   padding-top: 10px;
+   font-style: italic;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+.card p {
+   font-size: 12px;
+   max-width: 500px;
+   color: #666666;
+   margin: 0 auto;
+
+}
+
+#post-cover {
+   display: flex;
+   width: 100%;
+   padding-top: 30px;
+   
+   max-width: 1200px;
+   margin: 0 auto;
+}
+hr {
+   max-width: 300px;
+   filter: opacity(25%);
+   
+}
+
+
+body {
+    margin: 0;
+}
+
+#post-content {
+   width: 50%;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+#post-content img {
+   width: 100%;
+}
+
+#left-box {
+   width:25%;
+}
+
+#right-box {
+   width: 25%;
+}
+
+#left-box p {
+   padding-left: 20px;
+}
+
+#left-box a{
+color: var(--secondary-color);
+   
+}
+
+
+#left-box a:hover {
+   font-weight: bold;
+}
+
+#generaldiv {
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1000px;
+   width: 80%;
+   padding-top: 30px;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style-type: none;
+}
+
+@media screen and (max-width: 900px) {
+  #left-box {
+     display:none;
+  }
+  #right-box {
+     display:none;
+  }
+  #post-content {
+     width: 80%;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+   #footer > ul > li {
+     display: block;
+  }
+     #main-post-title {
+      font-size: 30px;
+   }
+     .card img {
+     display: none;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+   #all {
+      max-width: 1000px;
+   }
+}
+
+@media screen and (min-width: 600px) {
+   #main-post-title {
+      font-size: 50px;
+   }
+}
+
+
+::selection {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
+#reading-progress {
+    position: fixed;
+    width: 100%;
+    height: 5px;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+#reading-progress-fill {
+    height: 7px;
+    width: 0;
+}
+
+#reading-progress-fill {
+    transition: width 100ms ease;
+    transition: width 100ms ease;
+    transition: width 100ms ease;
+    background-color: var(--secondary-color);
+}
+
+#footer {
+   background-color: black;
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+#footinfo li{
+   color: white;
+   padding: 0 10px;
+}
+
+h1 {
+   color: var(--secondary-color);
+}
+
+#main-post-cover, .recent-post h1 {
+   width: 100%;
+   margin-top:10px;
+   font-family: 'Abril Fatface';
+   font-weight: normal;
+   color: var(--secondary-color);
+}
+
+.recent-post h1:hover {
+   color: #BF4500;
+}
+
+.recent-post img:hover {
+   filter: grayscale(100%);
+}
+
+h5 {
+   color: #BF4500;
+   text-align: center;
+   letter-spacing: 2px;
+}
+
+#main-post-title {
+   font-family: 'Abril Fatface';
+   font-weight: normal;
+
+}
+
+#main-post-description {
+   font-size: 12px;
+   max-width: 1200px;
+   color: yellow;
+   font-style: italic;
+
+}
+
+
+#section1, #section2, #section3, #section4{
+   margin: 0 80px;
+}
+
+#section3 {
+   margin-top: 50px;
+}
+
+#other-posts {
+   background-color: var(--third-color);
+   padding: 10px 0;
+   margin-top: 80px;
+}
+
+#read-button {
+   color: #BF4500;
+}
+
+#recent-posts {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 20px;
+}
+
+.recent-post {
+   display: absolute;
+   width: 30%;
+}
+
+#recent-post-two, #recent-post-five, #recent-post-six {
+   width: 30%;
+   margin-left: 5%;
+}
+
+#right-bar-home {
+   width: 20%;
+   margin-left: 5%;
+}
+
+#right-bar-home img {
+   margin-bottom: 20px;
+}
+
+.recent-post img {
+   width: 100%;
+   object-fit: cover;
+   height: 200px;
+}
+
+#recent-post-three {
+   margin-top: 20px;
+   width: 100%;
+   background-color: black;
+}
+
+#recent-post-three img {
+   width: 100%;
+}
+
+#recent-post-three h1 {
+   font-family: 'Abril Fatface';
+   font-weight: normal;
+   text-align: center;
+   margin: auto;
+   padding: 20px 0;
+   color: white;
+}
+
+@media screen and (max-width: 900px) {
+     #recent-posts {
+     display: inline-block;
+  }
+  .recent-post {
+     margin-left: 0px;
+     width: 100%;
+     
+  }
+  .recent-post img {
+   height: 300px;
+}
+   #right-bar-home {
+      width: 100%;
+      margin-left: 0px;
+   }
+
+#recent-post-two, #recent-post-five, #recent-post-six {
+   width: 100%;
+   margin-left: 0px;
+}
+}
+
+#all-posts {
+   background-color: var(--secondary-color);
+   width: 200px;
+   height: 60px;
+   margin: 60px auto;
+}
+
+#all-posts:hover {
+   background-color: #BF4500;
+}
+
+#all-posts > a > p {
+   color: var(--primary-color);
+   text-align: center;
+   padding-top: 15px;
+   font-size: 20px;
+}
+
+#back-to-the-top {
+   text-align: center;
+   text-decoration: none;
+   color: var(--forth-color);
+   margin-bottom: 50px;
+}
+
+#back-to-the-top:hover {
+   color: var(--secondary-color);
+   font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+.recent-post p {
+   font-size: 12px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.card img {
+   height: 200px;
+   object-fit: cover;
+   width: 100%;
+
+}
+
+.card h2 {
+   font-family: 'Abril Fatface';
+   font-weight: normal;
+   color: var(--secondary-color);
+}
+
+
+/* Add some padding inside the card container */
+.container {
+  padding: 0px 16px;
+  
+}
+
+#all-articles {
+   text-align: center;
+}
+
+#posts {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 700px;
+   margin: 0 auto;
+   padding: 20px 30px;
+}
+* {
+   list-style: none;
+}
+
+#searchbar-div {
+   margin: 30px auto;
+   width: 50vh;
+   padding: 0 auto;
+   margin-left: auto;
+}
+#searchbar {
+   width:86%;
+   border: 2px solid;
+   height: 30px;
+   padding: 5px 20px;
+   background-color: var(--third-color);
+   border-color: var(--secondary-color);
+}
+
+#no-posts-yet {
+   text-align: center;
+   margin: 0 auto;
+}
+
+#toggle-btn {
+  display: none;
+}
+}
+
+#theme {
+  width: 100%;
+  height: 100%;
+}
+
+.dark-mode-theme {
+   --primary-color: #121212;
+   --secondary-color: white;
+   --third-color: #333333;
+
+}
+
+#sun:hover {
+   cursor: pointer;
+}
+
+.recent-post h6, #section1 h6 {
+   color: gray;
+}
+
+
+
+figcaption {
+   text-align: center;
+   color: gray; 
+   font-style: italic;
+}
+
+
+#about-us {
+   font-family: 'Abril Fatface';
+   font-weight: normal;
+   text-align: center;
+   max-width: 800px;
+   margin: 0 auto;
+   letter-spacing: 1px;
+}
+
+#about-us-paragraph {
+   text-align: center;
+   max-width: 500px;
+   margin: 20px auto;
+   letter-spacing: 1px;
+}
+
+#about-us, #contact-us {
+   color: var(--secondary-color);
+}
+
+
+
+
+blockquote {
+  border-left: 5px solid var(--secondary-color);
+  margin: 20px 0px;
+  padding: 0 20px;
+
+}
+
+#other-posts {
+   display: none;
+}
+
+
+
+
+
