@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Films</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" type="image/svg" sizes="32x32" href="icons/secondarylogo.svg">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body id="body">
+      <div id="reading-progress"><div id="reading-progress-fill"></div></div>
+      <div>
+         
+<!-- heading -->         
+         
+      <header>
+         <a href="index.html"><img id="main-logo" src="./icons/bokettoicon.svg"></a>
+      <nav id="navbar">
+         <ul>
+            <li><a href="index.html">Home</a></li>           
+            <li><a href="animation.html">Animation</a></li>
+            <li><a href="films.html">Films</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="artandculture.html">Art & culture</a></li>           
+            <li><a href="blog.html" id="blog">Blog</a></li>
+         </ul>
+         <label for="toggle-btn"><img src="./icons/sun.svg" id="sun"></label>
+         <button id="toggle-btn" class="dark-mode-toggle">Toggle dark mode</button>
+      </nav>
+      <hr style="width: 30%">
+      </div>
+      </header>
+      
+<!-- title-->
+
+      <h1 id="all-articles">Films</h1>
+      
+      
+<!--search bar-->
+<div id="searchbar-div">
+<input id="searchbar" onkeyup="search_article()" type="text" name="search" placeholder="Find article">
+</div>    
+<!-- posts-->
+<div id="posts">
+   
+<!-- post 3-->
+
+<div class="card">
+  <img src="images/covers/cover3.jpg">
+  <div class="container">
+    <a href="posts/post3.html"><h2>What we already know about ‘Suzume no Tojimari’, the newest Makoto Shinkai’s movie</h2></a>
+    <p>‘Suzume no Tojimari’ (すずめの戸締まり) is one of the most awaited movies for 2022 for anime lovers. The film will have its release in Japan in November...</p>
+    <h5>ANIMATION - FILMS</h5>
+  </div>
+</div>
+
+<!-- post 1-->
+
+<div class="card">
+  <img src="images/covers/cover1.gif">
+  <div class="container">
+    <a href="posts/post1.html"><h2>The art behind weaving yarns in 'Your Name'</h2></a>
+    <p>The movie 'Your Name’ is considered by many to be one of the best films ever produced in Japan. The film is a romantic...</p>
+    <h5>ART & CULTURE - FILM - ANIMATION</h5>
+  </div>
+</div> 
+
+</div>
+
+<!-- footer -->      
+      
+      <footer>
+         <div id="footer">
+            <a href="index.html"><img src="./icons/whiteicon.svg" id="whiteicon"></a>
+            <ul id="footinfo">
+               <li>All rights reserved 2022</li>
+            </ul>
+         </div>
+      </footer>
+      <script src="js/main.js"></script>
+   </body>
+</html>
