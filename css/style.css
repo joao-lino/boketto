@@ -182,9 +182,6 @@ ul {
      #main-post-title {
       font-size: 30px;
    }
-     .card img {
-     display: none;
-  }
 }
 
 @media screen and (min-width: 2000px) {
