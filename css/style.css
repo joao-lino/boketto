@@ -181,9 +181,10 @@ ul {
      .card img {
      display: none;
   }
-  #generaldiv {
-     width: 80%;
-  }
+   
+   #post-content {
+   padding: 0;
+   }
 }
 
 @media screen and (min-width: 2000px) {
