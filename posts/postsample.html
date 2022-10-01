@@ -30,8 +30,26 @@
          </ul>
          <label for="toggle-btn"><img src="../icons/sun.svg" id="sun"></label>
          <button id="toggle-btn" class="dark-mode-toggle">Toggle dark mode</button>
+         <span onclick="openNav()"><img id="bars" height="10px" src="./icons/bars.svg"></span>
       </nav>
       </div>
+      
+<!--hidden-options-->
+
+<div id="hidden-nav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="hidden-options">
+   <a href="#"><img id="main-logo" src="./icons/bokettoiconwhite.svg">
+   <br>
+   <hr>
+   <a href="index.html"><h1>Home</h1></a>       
+   <a href="animation.html"><h1>Animation</h1></a>
+   <a href="films.html"><h1>Films</h1></a>
+   <a href="books.html"><h1>Books</h1></a>
+   <a href="artandculture.html"><h1>Art & culture</h1></a>   
+   <a href="blog.html" id="blog"><h1>Blog</h1></a>
+  </div>
+</div>
       
       <hr>
       </header>
