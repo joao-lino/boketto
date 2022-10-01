@@ -71,7 +71,3 @@ function openNav() {
 function closeNav() {
   document.getElementById("hidden-nav").style.height = "0%";
 }
-
-
-
-
