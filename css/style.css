@@ -13,6 +13,7 @@
    --forth-color: #888888;
 }
 
+
 #sun {
    cursor: pointer;
 }
@@ -130,18 +131,10 @@ body {
    width: 25%;
 }
 
-#left-box p {
-   padding-left: 20px;
-}
-
-#left-box a{
-color: var(--secondary-color);
-   
-}
-
-
-#left-box a:hover {
-   font-weight: bold;
+#author {
+   text-align: center;
+   color: gray;
+   font-size: 15px;
 }
 
 #generaldiv {
@@ -162,14 +155,17 @@ ul {
 }
 
 @media screen and (max-width: 900px) {
-  #left-box {
-     display:none;
-  }
-  #right-box {
-     display:none;
-  }
+   
+   #generaldiv {
+      display: block;
+   }
+   
+   #left-box p {
+      font-size: 10px;
+   }
+   
   #post-content {
-     width: 80%;
+     width: 100%;
   }
 
 
@@ -182,6 +178,12 @@ ul {
      #main-post-title {
       font-size: 30px;
    }
+     .card img {
+     display: none;
+  }
+  #generaldiv {
+     width: 80%;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -497,8 +499,6 @@ h5 {
    color: gray;
 }
 
-
-
 figcaption {
    text-align: center;
    color: gray; 
@@ -525,9 +525,6 @@ figcaption {
 #about-us, #contact-us {
    color: var(--secondary-color);
 }
-
-
-
 
 blockquote {
   border-left: 5px solid var(--secondary-color);
