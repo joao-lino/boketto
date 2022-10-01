@@ -26,6 +26,7 @@ const theme = document.getElementById("body");
 let darkMode = localStorage.getItem("dark-mode");
 var logo = document.getElementById("main-logo");
 var themeIcon = document.getElementById("sun");
+var bars = document.getElementById("bars");
 
 const enableDarkMode = () => {
   theme.classList.add("dark-mode-theme");
@@ -33,6 +34,7 @@ const enableDarkMode = () => {
   localStorage.setItem("dark-mode", "enabled");
   logo.src = "icons/bokettoiconwhite.svg";
   themeIcon.src = "./icons/moon.svg";
+  bars.src = "icons/bars-white.svg";
 };
 
 const disableDarkMode = () => {
@@ -41,6 +43,7 @@ const disableDarkMode = () => {
   localStorage.setItem("dark-mode", "disabled");
   logo.src="icons/bokettoicon.svg";
   themeIcon.src = "./icons/sun.svg";
+  bars.src = "./icons/bars.svg"; 
    
 };
 
@@ -60,13 +63,14 @@ toggleBtn.addEventListener("click", (e) => {
 });
 
 
+/* Open */
+function openNav() {
+  document.getElementById("hidden-nav").style.height = "100%";
+}
 
-
-
-
-
-
-
+function closeNav() {
+  document.getElementById("hidden-nav").style.height = "0%";
+}
 
 
 
