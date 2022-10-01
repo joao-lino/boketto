@@ -182,6 +182,12 @@ ul {
    #post-content {
    padding: 0;
    }
+     nav > ul {
+     display: none;
+  }
+  #sun {
+     margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -535,7 +541,55 @@ blockquote {
    display: none;
 }
 
+.overlay {
+  width: 100%;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background-color: black; 
+  overflow-x: hidden; 
+  transition: 1s; 
+  height: 0;
+}
 
+.hidden-options {
+  width: 100%; 
+  text-align: center; 
+}
+
+.overlay a > h1, .overlay a {
+   font-family: 'Abril Fatface';
+   font-weight: normal;
+   text-decoration: none;
+   color: white;
+   transition: 2s;
+   font-size: 30px;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.closebtn {
+   color: white;
+   transition-duration: 1s;
+}
+
+#bars {
+   margin-bottom: 5px;
+}
+
+#bars:hover {
+   cursor: pointer;
+}
+
+#sun {
+   margin-right: 20px
+}
 
 
 
