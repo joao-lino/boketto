@@ -191,6 +191,7 @@ ul {
    #section2 {
    width: 100%;
    margin: none;
+   left: 0;
    }
    #about-us-paragraph {
    margin-left: 20px;
