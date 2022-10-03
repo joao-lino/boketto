@@ -596,7 +596,7 @@ blockquote {
    font-weight: normal;
 }
 
-#post-content h1, #post-content h2 {
+h1, h2 {
    font-family: 'Abril Fatface';
    font-weight: normal;
 }
