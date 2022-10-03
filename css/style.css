@@ -600,3 +600,34 @@ h1, h2 {
    font-family: 'Abril Fatface';
    font-weight: normal;
 }
+
+#news-letter h1, #news-letter-hidden h1 {
+      text-align: center;
+
+   }
+   
+#news-letter, #news-letter-hidden {
+      margin: 0 auto 40px auto;
+      width: 300px;
+   }
+   
+#news-letter > form > input, #news-letter-hidden > form > input {
+      width: 100%;
+      height: 60px ;
+      text-align: center;
+   }
+   
+#email-news-letter {
+   background-color: var(--primary-color);
+   border: solid 2px var(--secondary-color);
+}
+   
+#submit-news-letter, #submit-news-letter-hidden {
+   background-color: black;
+   color: white;
+   border: solid 2px white;
+   }
+   
+#submit-news-letter:hover, #submit-news-letter-hidden:hover {
+   cursor: pointer;
+}
