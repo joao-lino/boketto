@@ -610,6 +610,12 @@ h1, h2 {
       margin: 0 auto 40px auto;
       width: 300px;
    }
+
+#email-news-letter-hidden {
+   background-color: #222222;
+   color: gray;
+   border: solid 2px var(--secondary-color);
+}
    
 #news-letter > form > input, #news-letter-hidden > form > input {
       width: 100%;
