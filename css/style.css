@@ -192,6 +192,10 @@ ul {
    width: 100%;
    margin: none;
    }
+   #about-us-paragraph {
+   margin-left: 20px;
+   margin-right: 20px;
+   }
 }
 
 @media screen and (min-width: 2000px) {
