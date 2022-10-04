@@ -617,6 +617,7 @@ h1, h2 {
 		width:800px;
 		margin: 0 auto;
       color: var(--secondary-color);
+		padding: 30px;
 	}
 
 #news-letter-h1 {
@@ -625,7 +626,6 @@ h1, h2 {
 }
 #mc-embedded-subscribe {
 	width: 200px;
-	padding: 30px;
 }
 
 #mce-EMAIL {
@@ -638,5 +638,10 @@ h1, h2 {
 	padding: 5px;
 	background-color: var(--secondary-color);
 	color: var(--primary-color);
+}
+
+#subscribe:hover {
+	cursor: pointer;
+	background-color: gray;
 }
 
