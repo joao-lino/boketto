@@ -620,12 +620,17 @@ h1, h2 {
    text-align: center;
 }
 
+#mc_embed_signup_scroll h1 {
+   text-align: center;
+}
+
 #mc-embedded-subscribe {
    padding: 20px;
    width: 300px;
    background-color: var(--secondary-color);
    border: none;
    color: var(--primary-color);
+   margin: 10px auto; 
 }
 
 #mc-embedded-subscribe:hover {
