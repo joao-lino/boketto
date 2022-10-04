@@ -610,11 +610,32 @@ h1, h2 {
    font-family: 'Abril Fatface';
    font-weight: normal;
 }
+
 #mc_embed_signup {
    background-color:var(--primary-color);
-   clear:left;
-   width:600px;
+   width:300px;
    margin: 0 auto; 
    color: var(--secondary-color);
    font-weight: normal;
+   text-align: center;
 }
+
+#mc-embedded-subscribe {
+   padding: 20px;
+   width: 300px;
+   background-color: var(--secondary-color);
+   border: none;
+   color: var(--primary-color);
+}
+
+#mc-embedded-subscribe:hover {
+   cursor: pointer;
+}
+
+#mce-EMAIL {
+   width: 255px;
+   padding: 20px;
+   background: var(--primary-color);
+   border: solid 2px var(--secondary-color);
+}
+
