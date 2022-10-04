@@ -195,6 +195,9 @@ ul {
    margin-left: 20px;
    margin-right: 20px;
    }
+   #right-bar-home {
+      display: none;
+   }
 }
 
 @media screen and (min-width: 2000px) {
