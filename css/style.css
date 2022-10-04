@@ -627,13 +627,13 @@ h1, h2 {
 }
 
 #mce-EMAIL {
-	width: 120%;
+	width: 100%;
 	background-color: var(--primary-color);
 	border: solid 2px var(--secondary-color);
 }
 
 #subscribe {
-	width: 100%;
+	width: 90%;
 	text-align: center;
 	padding: 5px;
 	background-color: var(--secondary-color);
