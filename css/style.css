@@ -610,37 +610,17 @@ h1, h2 {
    font-family: 'Abril Fatface';
    font-weight: normal;
 }
+#mc_embed_signup{
+		background: var(--primary-color); 
+		clear:left; 
+		font:14px Helvetica,Arial,sans-serif;  
+		width:600px;
+		margin: 0 auto;
+		border-radius: 20px;
+      color: var(--secondary-color);
+	}
 
-#mc_embed_signup {
-   background-color:var(--primary-color);
-   width:300px;
-   margin: 0 auto; 
-   color: var(--secondary-color);
-   font-weight: normal;
+#news-letter-h1 {
    text-align: center;
+   font-weight: normal; 
 }
-
-#mc_embed_signup_scroll h1 {
-   text-align: center;
-}
-
-#mc-embedded-subscribe {
-   padding: 20px;
-   width: 300px;
-   background-color: var(--secondary-color);
-   border: none;
-   color: var(--primary-color);
-   margin: 10px auto; 
-}
-
-#mc-embedded-subscribe:hover {
-   cursor: pointer;
-}
-
-#mce-EMAIL {
-   width: 255px;
-   padding: 20px;
-   background: var(--primary-color);
-   border: solid 2px var(--secondary-color);
-}
-
