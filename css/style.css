@@ -614,7 +614,8 @@ h1, h2 {
 #mc_embed_signup{
 		background: var(--third-color); 
 		clear:left;
-		width:800px;
+		width:80%;
+		max-width:500px;
 		margin: 0 auto;
       color: var(--secondary-color);
 		padding: 30px;
@@ -625,12 +626,10 @@ h1, h2 {
    font-weight: normal; 
 }
 
-#mc-embedded-subscribe {
-	width: 200px;
-}
-
 #mce-EMAIL {
 	width: 120%;
+	background-color: var(--primary-color);
+	border: solid 2px var(--secondary-color);
 }
 
 #subscribe {
