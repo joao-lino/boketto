@@ -624,16 +624,17 @@ h1, h2 {
    text-align: center;
    font-weight: normal; 
 }
+
 #mc-embedded-subscribe {
 	width: 200px;
 }
 
 #mce-EMAIL {
-	width: 100px;
+	width: 100%;
 }
 
 #subscribe {
-	width: 100px;
+	width: 100%;
 	text-align: center;
 	padding: 5px;
 	background-color: var(--secondary-color);
