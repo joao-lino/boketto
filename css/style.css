@@ -167,6 +167,9 @@ ul {
   #post-content {
      width: 100%;
   }
+#right-bar-home {
+      display: none;
+   }
 
 
 }
@@ -194,9 +197,6 @@ ul {
    #about-us-paragraph {
    margin-left: 20px;
    margin-right: 20px;
-   }
-   #right-bar-home {
-      display: none;
    }
 }
 
