@@ -646,3 +646,6 @@ h1, h2 {
 	background-color: gray;
 }
 
+#mc-embedded-subscribe {
+	display: none;
+}
