@@ -616,7 +616,7 @@ h1, h2 {
 		clear:left;
 		width:80%;
 		max-width:500px;
-		margin: 0 auto;
+		margin: 0 auto 30px auto;
       color: var(--secondary-color);
 		padding: 30px;
 	}
@@ -633,7 +633,7 @@ h1, h2 {
 }
 
 #subscribe {
-	width: 90%;
+	width: 95%;
 	text-align: center;
 	padding: 5px;
 	background-color: var(--secondary-color);
