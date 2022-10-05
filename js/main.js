@@ -72,15 +72,3 @@ function closeNav() {
   document.getElementById("hidden-nav").style.height = "0%";
 }
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.querySelector("header").style.top = "0";
-  }
-  else {
-    document.querySelector("header").style.top = "-115px";
-  }
-
-  prevScrollpos = currentScrollPos;
-}
