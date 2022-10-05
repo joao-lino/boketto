@@ -616,7 +616,7 @@ h1, h2 {
 		clear:left;
 		width:80%;
 		max-width:500px;
-		margin: 0 auto 30px auto;
+		margin: 0 auto 80px auto;
       color: var(--secondary-color);
 		padding: 80px;
 	}
