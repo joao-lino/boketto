@@ -210,13 +210,6 @@ ul {
    #main-post-title {
       font-size: 50px;
    }
-	header {
-   position: fixed;
-   width: 100%;
-   background-color: var(--primary-color);
-   transition-duration: 1s;
-   padding-bottom: 10px;
-}
 }
 
 
