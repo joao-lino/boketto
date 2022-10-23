@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rozha+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 * {
-   font-family: 'Poppins', Tahoma;
+   font-family: 'Libre Baskerville','Poppins', Tahoma;
    padding:0px;
 }
 
