@@ -653,3 +653,13 @@ h1, h2 {
 #mc-embedded-subscribe {
 	display: none;
 }
+
+#post-content p {
+line-height: 200%;
+font-family: 'Libre Baskerville';
+}
+
+.recent-post p {
+   line-height: 170%;
+   font-family: 'Libre Baskerville';
+}
