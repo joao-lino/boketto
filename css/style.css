@@ -347,8 +347,10 @@ h5 {
 }
 
 #recent-post-three img {
-   width: 100%;
+	width: 100%;
 	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 #recent-post-three h1 {
