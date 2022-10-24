@@ -171,6 +171,9 @@ ul {
 #right-bar-home {
       display: none;
    }
+	#section1, #section2, #section3, #section4 {
+   margin: 0 30px;
+}
 
 
 }
@@ -199,9 +202,6 @@ ul {
    margin-left: 20px;
    margin-right: 20px;
    }
-	#section1, #section2, #section3, #section4{
-   margin: 0 30px;
-}
 }
 
 @media screen and (min-width: 2000px) {
