@@ -515,6 +515,7 @@ h5 {
 
 .recent-post h6, #section1 h6 {
    color: gray;
+	line-height: 25px;
 }
 
 figcaption {
