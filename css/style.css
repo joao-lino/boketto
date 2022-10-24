@@ -292,7 +292,7 @@ h5 {
 
 
 #section1, #section2, #section3, #section4{
-   margin: 0 80px;
+   margin: 0px 80px;
 }
 
 #section3 {
@@ -341,13 +341,14 @@ h5 {
 }
 
 #recent-post-three {
-   margin-top: 20px;
    width: 100%;
    background-color: black;
+	border-radius: 20px;
 }
 
 #recent-post-three img {
    width: 100%;
+	object-fit: cover;
 }
 
 #recent-post-three h1 {
